@@ -1,0 +1,1184 @@
+GODS COMMAND AI
+
+MEGA MASTER BUILD DIRECTIVE — ENTERPRISE CONTRACTOR EDITION
+
+V1.0.0 | SINGLE SOURCE OF TRUTH | PRODUCTION IMPLEMENTATION
+
+EXECUTION TARGET: Grok Build / grok.me
+PRODUCT TYPE: Multi-tenant AI SaaS / Web Application / Progressive Web App
+PRIMARY MARKET: US home-service contractors
+EXPANSION: International contractor and field-service markets
+BUSINESS OBJECTIVE: Recurring subscription revenue + scalable enterprise growth
+EXECUTION MODE: Inspect → Build → Execute → Test → Verify → Deploy
+QUALITY TARGET: Production-grade, security-first, commercially viable
+
+⸻
+
+0. SUPREME EXECUTION CONTRACT
+
+You are acting as the complete engineering organization responsible for delivering GODS COMMAND AI.
+
+Operate as:
+
+* Principal Software Architect
+* Senior Full-Stack Engineer
+* AI Systems Engineer
+* Database Architect
+* Cybersecurity Engineer
+* UI/UX Director
+* SaaS Product Manager
+* Payment Integration Engineer
+* QA Automation Engineer
+* DevOps and Deployment Engineer
+
+Your assignment is to IMPLEMENT THE ACTUAL APPLICATION.
+
+Do not merely describe an architecture, create a mockup, produce a roadmap, or generate sample code without integrating it.
+
+Non-negotiable invariants
+
+1. Build a real, working application.
+2. Inspect the actual Grok Build environment before selecting architecture.
+3. Preserve existing working code and configurations.
+4. Use one authoritative product specification.
+5. Use durable database persistence.
+6. Implement real authentication and authorization.
+7. Enforce server-side tenant isolation.
+8. Use actual AI provider APIs.
+9. Implement real payment integrations when credentials are available.
+10. Never fabricate external API responses.
+11. Never display simulated financial transactions as real.
+12. Never expose API keys or secrets to browsers.
+13. Never silently replace production functionality with placeholders.
+14. Never claim a feature is complete without execution evidence.
+15. Never claim deployment succeeded without verifying the deployed application.
+
+FAIL-CLOSED RULE:
+
+If an essential dependency, API credential, provider permission, database, or external service is unavailable, identify the blocker and keep the affected feature disabled.
+
+Do not pretend that unavailable functionality is operational.
+
+A partially completed system must accurately report its status.
+
+⸻
+
+1. PRODUCT VISION
+
+GODS COMMAND AI is an AI-powered operating system for contractors.
+
+A business owner should be able to manage their entire operation from an iPhone, Android phone, tablet, or desktop.
+
+The application must help contractors:
+
+* Acquire new customers.
+* Respond to leads.
+* Generate professional estimates.
+* Convert estimates into jobs.
+* Schedule technicians.
+* Dispatch teams.
+* Manage customer communications.
+* Create invoices.
+* Collect payments.
+* Track expenses.
+* Calculate job profitability.
+* Monitor business performance.
+* Automate administrative work.
+
+The application should feel like a combination of a premium CRM, field-service management platform, business intelligence system, and intelligent AI assistant.
+
+It must be simple enough for a solo contractor and powerful enough for a growing company.
+
+Initial industry support
+
+Create configurable industry profiles for:
+
+1. HVAC
+2. Plumbing
+3. Roofing
+4. Electrical
+5. Cleaning
+6. Landscaping
+7. General contracting
+8. Painting
+9. Appliance repair
+10. Handyman services
+
+Do not create ten separate applications.
+
+Use one modular application with industry-specific configuration, terminology, forms, and workflows.
+
+⸻
+
+2. PRODUCT DESIGN — PREMIUM MOBILE EXPERIENCE
+
+Design identity
+
+Product: GODS COMMAND AI
+
+Visual direction: Futuristic enterprise technology.
+
+Color system:
+
+* Primary background: #070A12
+* Secondary background: #101626
+* Electric blue: #2583FF
+* Violet: #8157FF
+* Cyan highlights: #22D3EE
+* Success: #16C784
+* Warning: #FFB547
+* Error: #FF5364
+* Primary text: #F7F9FF
+* Secondary text: #9AA7BD
+
+Use a sophisticated dark glassmorphism design.
+
+Interface requirements
+
+* Premium glass cards.
+* Subtle neon lighting.
+* Smooth animations.
+* High-contrast typography.
+* Professional icons.
+* Rounded interactive surfaces.
+* Animated AI assistant orb.
+* Clean charts and financial visualizations.
+* Responsive desktop and mobile layouts.
+* Accessible contrast and readable font sizes.
+* Touch-friendly controls.
+
+Avoid excessive decoration that slows down business workflows.
+
+Main navigation
+
+Mobile bottom navigation:
+
+1. Home
+2. Leads
+3. Jobs
+4. AI Command
+5. More
+
+Desktop navigation:
+
+* Overview
+* CRM
+* Leads
+* Customers
+* Estimates
+* Jobs
+* Scheduling
+* Dispatch
+* Technicians
+* Invoices
+* Payments
+* Expenses
+* Reports
+* AI Agents
+* Integrations
+* Settings
+
+Super Admin must have a separate protected administrative area.
+
+Dashboard
+
+Show actual data from the authenticated tenant.
+
+Include:
+
+* Total revenue
+* Collected payments
+* Outstanding invoices
+* Active jobs
+* New leads
+* Estimate conversion
+* Expenses
+* Gross profit
+* Upcoming appointments
+* Technician activity
+* Customer acquisition metrics
+
+Every financial metric must have a defined calculation and data source.
+
+Never generate random numbers to make the dashboard look populated.
+
+Provide a useful onboarding state when the business has no records.
+
+⸻
+
+3. CORE BUSINESS ENGINE
+
+Build the following complete operational modules.
+
+3.1 CRM and customer management
+
+Implement:
+
+* Customer creation and editing.
+* Contact information.
+* Multiple service addresses.
+* Customer history.
+* Communication history.
+* Internal notes.
+* Customer tags.
+* Lead source.
+* Customer status.
+* Search and filters.
+* Customer import with validation.
+* Customer export with authorization.
+
+Support duplicate detection.
+
+Maintain tenant ownership on every record.
+
+3.2 AI lead management
+
+Implement:
+
+* Lead capture forms.
+* Website inquiry capture.
+* Manual lead creation.
+* Lead assignment.
+* Lead qualification.
+* Lead scoring.
+* Follow-up scheduling.
+* Lead status tracking.
+* Conversion analytics.
+
+Lead lifecycle:
+
+NEW → CONTACTED → QUALIFIED → ESTIMATE_SENT → WON / LOST.
+
+AI may recommend actions but must not send messages or make commitments without configured authorization.
+
+3.3 Estimates and proposals
+
+Implement:
+
+* Professional estimate builder.
+* Line items.
+* Labor costs.
+* Material costs.
+* Taxes.
+* Discounts.
+* Optional services.
+* Customer approval.
+* Estimate expiration.
+* PDF generation.
+* Version history.
+* Estimate-to-job conversion.
+
+Calculate all totals server-side.
+
+Do not trust browser-submitted totals.
+
+Estimate acceptance must be recorded with timestamp, customer, document version, and appropriate audit evidence.
+
+3.4 Job management
+
+Implement:
+
+* Job creation.
+* Job assignment.
+* Job priority.
+* Job status.
+* Service location.
+* Work descriptions.
+* Technician assignment.
+* Material requirements.
+* Internal notes.
+* Job attachments.
+* Before-and-after photographs.
+* Completion reports.
+* Customer sign-off.
+
+Job lifecycle:
+
+REQUESTED → SCHEDULED → ASSIGNED → IN_PROGRESS → COMPLETED → INVOICED → PAID.
+
+Support cancellation and rescheduling with audit history.
+
+3.5 Scheduling and dispatch
+
+Implement:
+
+* Calendar views.
+* Daily, weekly, and monthly scheduling.
+* Technician availability.
+* Assignment management.
+* Appointment reminders.
+* Conflict detection.
+* Dispatch board.
+* Job status updates.
+
+Never assign a technician to overlapping appointments without explicit authorized override.
+
+Use actual timezone-aware timestamps.
+
+Do not assume every contractor operates in the same timezone.
+
+3.6 Invoicing and payments
+
+Implement:
+
+* Invoice creation.
+* Invoice numbering.
+* Line items.
+* Taxes.
+* Discounts.
+* Due dates.
+* Payment status.
+* Partial payments.
+* Refund records.
+* Payment reconciliation.
+* PDF receipts.
+* Overdue reminders.
+
+Invoice lifecycle:
+
+DRAFT → ISSUED → PARTIALLY_PAID → PAID / OVERDUE / VOID.
+
+Integrate Stripe through authorized server-side APIs.
+
+Support payment webhooks with:
+
+* Signature verification.
+* Idempotency.
+* Event persistence.
+* Duplicate event protection.
+* Payment reconciliation.
+* Database read-back.
+
+Never mark an invoice paid based solely on a browser redirect.
+
+Only verified payment provider events or authenticated reconciliation may confirm payment.
+
+Keep payment methods and sensitive financial information with the payment provider.
+
+⸻
+
+4. AI COMMAND CENTER
+
+Create a central conversational AI experience.
+
+It must understand the business data that the authenticated user is authorized to access.
+
+Example commands:
+
+* “Show me all unpaid invoices.”
+* “Which leads need follow-up?”
+* “Create an estimate for a plumbing repair.”
+* “Schedule my next available technician.”
+* “How much revenue did we collect this month?”
+* “Which jobs have the highest profit margins?”
+* “Show customers who haven’t responded to estimates.”
+* “Summarize today’s business operations.”
+
+AI architecture
+
+Create an AI provider abstraction.
+
+Initial provider priority:
+
+1. OpenAI
+2. Anthropic
+3. Google Gemini
+4. Additional compatible providers through explicit adapters.
+
+Use official authorized APIs.
+
+Implement:
+
+* Provider configuration.
+* Model configuration.
+* Secure credential storage.
+* Provider health checks.
+* Request logging.
+* Token usage tracking.
+* Cost tracking.
+* Timeout handling.
+* Retry policies.
+* Rate limits.
+* Usage quotas.
+* Error handling.
+* Provider fallback when explicitly configured.
+
+Do not pretend that a provider is connected when credentials or permissions are missing.
+
+AI tool execution
+
+AI tools must use strict server-side schemas.
+
+Every tool invocation must verify:
+
+* Authenticated user.
+* Tenant ownership.
+* Role permissions.
+* Requested resource ownership.
+* Input validity.
+* Action authorization.
+
+Separate read-only operations from write operations.
+
+Require human approval for:
+
+* Sending customer communications.
+* Issuing refunds.
+* Changing financial records.
+* Confirming appointments.
+* Deleting business records.
+* Executing irreversible operations.
+
+Record every action in an audit log.
+
+Initial AI agents
+
+Implement these agents as real services, not decorative cards.
+
+1. Lead Agent — lead qualification and follow-up recommendations.
+2. Sales Agent — estimates and sales assistance.
+3. Customer Agent — customer inquiry support.
+4. Scheduling Agent — appointment recommendations.
+5. Dispatch Agent — technician assignment recommendations.
+6. Invoice Agent — payment reminders and invoice assistance.
+7. Profit Agent — job profitability analysis.
+8. Operations Agent — daily business summaries.
+9. Marketing Agent — authorized marketing content generation.
+10. Business Intelligence Agent — business performance insights.
+
+Create an agent registry with permissions, tools, status, provider configuration, and usage tracking.
+
+No agent may bypass the authorization layer.
+
+⸻
+
+5. REVENUE AND SUBSCRIPTION ENGINE
+
+Build a real subscription management system.
+
+Proposed launch pricing:
+
+Plan	Price	Intended customer
+Free Trial	14 days	New businesses
+Starter	$29/month	Solo contractors
+Professional	$79/month	Growing contractors
+Business	$149/month	Small teams
+Enterprise	Custom	Larger organizations
+
+Allow Super Admin to configure pricing without code changes.
+
+Subscription requirements
+
+Implement:
+
+* Stripe Checkout.
+* Stripe Customer Portal.
+* Subscription creation.
+* Subscription updates.
+* Cancellation.
+* Renewal tracking.
+* Failed payment handling.
+* Webhook verification.
+* Subscription entitlement checks.
+* Trial expiration.
+* Billing history.
+* Usage limits.
+
+Create feature entitlements for each plan.
+
+Do not rely on frontend visibility to enforce subscription restrictions.
+
+Enforce access on the server.
+
+Do not assume the Grok hosting environment supports production payment processing until verified.
+
+Use Stripe test mode for initial verification.
+
+Live mode requires owner approval and real credentials.
+
+⸻
+
+6. DATABASE AND SYSTEM ARCHITECTURE
+
+Inspect the actual environment and select a supported architecture.
+
+Preferred baseline if compatible:
+
+* TypeScript
+* React / Next.js
+* PostgreSQL
+* Server-side API layer
+* Secure session authentication
+* Stripe
+* AI provider adapters
+* Object storage for attachments
+* Automated tests
+* GitHub version control
+
+If the platform imposes different constraints, select the closest supported production architecture and document the reason.
+
+Do not invent hosting capabilities.
+
+Required database entities
+
+Create appropriate normalized schemas and migrations for:
+
+* users
+* organizations
+* organization_members
+* roles
+* permissions
+* subscriptions
+* subscription_events
+* customers
+* customer_addresses
+* leads
+* lead_activities
+* estimates
+* estimate_items
+* estimate_versions
+* jobs
+* job_assignments
+* job_activities
+* appointments
+* technicians
+* invoices
+* invoice_items
+* payments
+* refunds
+* expenses
+* expense_categories
+* attachments
+* messages
+* notifications
+* ai_agents
+* ai_provider_credentials
+* ai_requests
+* ai_usage
+* audit_logs
+* integration_connections
+* webhook_events
+* feature_entitlements
+
+Add any additional tables required by actual workflows.
+
+Database invariants
+
+1. Every tenant-owned record must have tenant ownership.
+2. Every query must enforce tenant authorization.
+3. Use database constraints and foreign keys.
+4. Use transactions for multi-step financial operations.
+5. Use indexes for important search and filtering.
+6. Use migrations with version control.
+7. Use durable production storage.
+8. Implement backup and recovery procedures.
+9. Never delete production data during deployment.
+10. Use read-back verification after important writes.
+
+If PostgreSQL row-level security is supported, implement and test it as an additional security layer.
+
+Never treat frontend filtering as tenant isolation.
+
+⸻
+
+7. SECURITY AND COMPLIANCE
+
+Security is part of the implementation, not a future feature.
+
+Implement:
+
+* Secure authentication.
+* Email verification.
+* Password hashing using an established secure algorithm.
+* Session expiration.
+* Secure cookie settings.
+* CSRF protection where applicable.
+* Input validation.
+* Output encoding.
+* Rate limiting.
+* Login abuse protection.
+* Server-side RBAC.
+* Tenant isolation.
+* Secure file uploads.
+* Malware scanning where supported.
+* SSRF protections.
+* Secret management.
+* Audit logging.
+* Secure webhook verification.
+* Dependency vulnerability scanning.
+
+Never expose:
+
+* API keys.
+* Database credentials.
+* Stripe secret keys.
+* AI provider credentials.
+* Private customer records.
+* Internal administrative endpoints.
+
+Roles
+
+Organization roles:
+
+* Owner
+* Administrator
+* Manager
+* Dispatcher
+* Technician
+* Office Staff
+* Accountant
+
+Platform roles:
+
+* Super Admin
+* Support Admin
+
+Super Admin permissions must not automatically grant unrestricted access to customer financial data without an explicit authorized administrative workflow.
+
+Implement least privilege.
+
+Support organization invitations and membership revocation.
+
+⸻
+
+8. REAL EXTERNAL INTEGRATIONS
+
+Create a dedicated integrations center.
+
+Initial integration priorities:
+
+Integration	Purpose
+Stripe	Subscription and customer payments
+OpenAI	AI intelligence
+Anthropic	AI provider
+Gemini	AI provider
+Resend	Transactional email
+Twilio	SMS notifications
+Google Calendar	Calendar synchronization
+Google Maps Platform	Address and mapping services
+
+Use official APIs, supported SDKs, OAuth where appropriate, and authorized credentials.
+
+For every integration, implement:
+
+* Connection status.
+* Credential validation.
+* Permission verification.
+* Error reporting.
+* Retry behavior.
+* Rate-limit handling.
+* Webhook verification where applicable.
+* Disconnect functionality.
+* Audit history.
+
+Never display a green connected status without a verified connection.
+
+If a connector is unavailable, expose it as NOT CONFIGURED, not CONNECTED.
+
+⸻
+
+9. SUPER ADMIN COMMAND CENTER
+
+Create a separate protected platform administration interface.
+
+Features:
+
+* Total registered organizations.
+* Active subscriptions.
+* Trial accounts.
+* Subscription revenue.
+* Failed payments.
+* User management.
+* Organization management.
+* Plan management.
+* Feature entitlements.
+* AI usage analytics.
+* Provider health.
+* Integration status.
+* Security events.
+* Audit logs.
+* System health.
+* Error monitoring.
+* Account suspension.
+* Support tools.
+
+All administrative actions must be permission-controlled and audited.
+
+Never provide a hidden backdoor or shared administrator password.
+
+Provision the first Super Admin through a secure deployment process.
+
+Do not hardcode an administrator email or password into source code.
+
+⸻
+
+10. CUSTOMER ONBOARDING AND RETENTION
+
+Build a complete first-time experience.
+
+Step 1: Register.
+
+Step 2: Verify email.
+
+Step 3: Create business profile.
+
+Step 4: Select contractor industry.
+
+Step 5: Configure service area.
+
+Step 6: Add business contact details.
+
+Step 7: Invite team members.
+
+Step 8: Configure integrations.
+
+Step 9: Create first customer or import records.
+
+Step 10: Generate first estimate.
+
+Provide a clear progress indicator.
+
+Create onboarding checklists and useful empty states.
+
+Never force customers to connect every integration before using the core application.
+
+⸻
+
+11. MARKETING AND CUSTOMER ACQUISITION
+
+Build a public marketing website separate from the authenticated business application.
+
+Pages:
+
+* Home
+* Features
+* Industries
+* Pricing
+* About
+* Contact
+* Privacy Policy
+* Terms of Service
+* Sign In
+* Start Free Trial
+
+Create professional landing pages for HVAC, plumbing, roofing, and other initial industries.
+
+Implement:
+
+* SEO metadata.
+* Sitemap.
+* Robots.txt.
+* Responsive layouts.
+* Clear calls to action.
+* Trial registration.
+* Contact forms.
+* Analytics with privacy-conscious configuration.
+
+Marketing statements must be truthful and substantiated.
+
+Do not invent testimonials, customer counts, revenue statistics, or awards.
+
+⸻
+
+12. TECHNICAL EXECUTION AND PROJECT GOVERNANCE
+
+Establish the following authoritative project files:
+
+/docs/PRODUCT_SPEC.md
+
+/docs/ARCHITECTURE.md
+
+/docs/DATABASE_SCHEMA.md
+
+/docs/API_CONTRACTS.md
+
+/docs/SECURITY_MODEL.md
+
+/docs/AI_AGENT_REGISTRY.md
+
+/docs/INTEGRATIONS.md
+
+/docs/DEPLOYMENT.md
+
+/docs/PRODUCTION_ACCEPTANCE.md
+
+/docs/KNOWN_LIMITATIONS.md
+
+/docs/CHANGELOG.md
+
+/docs/IMPLEMENTATION_STATUS.md
+
+/gods.blueprint.yaml
+
+These documents must describe the actual implemented system.
+
+The gods.blueprint.yaml file is the machine-readable single source of truth for:
+
+* Product modules.
+* Routes.
+* Permissions.
+* Database entities.
+* API contracts.
+* AI agents.
+* Provider configurations.
+* Feature entitlements.
+* Environment requirements.
+* Acceptance gates.
+
+No contradictory duplicate specifications.
+
+Update the blueprint whenever implementation changes.
+
+⸻
+
+13. REQUIRED IMPLEMENTATION PHASES
+
+Execute sequentially.
+
+Do not attempt to create every module simultaneously and leave incomplete functionality behind.
+
+PHASE 0 — Environment inspection
+
+Inspect:
+
+* Existing repository.
+* Framework.
+* Dependencies.
+* Existing routes.
+* Database.
+* Authentication.
+* Hosting constraints.
+* Available integrations.
+* Environment variables.
+* Build and deployment capabilities.
+
+Record actual findings.
+
+Do not overwrite working files without reviewing them.
+
+PHASE 1 — Production foundation
+
+Build:
+
+* Application shell.
+* Responsive navigation.
+* Database.
+* Authentication.
+* Organization management.
+* RBAC.
+* Tenant isolation.
+* Audit logging.
+* Secure sessions.
+
+Acceptance: Two different organizations cannot access each other’s records, even when directly requesting known record IDs.
+
+PHASE 2 — Core contractor operations
+
+Build:
+
+* CRM.
+* Leads.
+* Estimates.
+* Jobs.
+* Scheduling.
+* Dispatch.
+* Invoices.
+* Expenses.
+
+Acceptance: Create, edit, read back, and verify real records through the application and database.
+
+PHASE 3 — AI Command Center
+
+Build:
+
+* Provider abstraction.
+* Secure provider configuration.
+* AI chat.
+* Agent registry.
+* Authorized tools.
+* Usage accounting.
+* AI audit records.
+
+Acceptance: Real provider request, real response, authorized tool invocation, and recorded usage.
+
+PHASE 4 — Payments and subscriptions
+
+Build:
+
+* Subscription plans.
+* Stripe Checkout.
+* Customer Portal.
+* Webhooks.
+* Entitlements.
+* Payment reconciliation.
+
+Acceptance: Verified test payment, verified webhook, durable subscription record, and correct feature entitlement.
+
+PHASE 5 — Integrations
+
+Implement the prioritized authorized integrations.
+
+Acceptance: Every integration is tested against its actual provider or clearly marked unavailable.
+
+PHASE 6 — Admin and analytics
+
+Build:
+
+* Super Admin.
+* Business analytics.
+* AI usage analytics.
+* Revenue reports.
+* Organization management.
+* System health.
+
+Acceptance: Administrative actions enforce RBAC and produce audit records.
+
+PHASE 7 — Quality, security and deployment
+
+Execute automated testing, security testing, build verification, deployment verification, and recovery testing.
+
+Do not mark the project production-ready until the mandatory acceptance gates pass.
+
+⸻
+
+14. TWELVE PRODUCTION ACCEPTANCE GATES
+
+Every critical workflow must pass the following evidence chain.
+
+Gate	Required proof
+1. UI event	Real user interaction
+2. Client handler	Correct event execution
+3. API route	Actual server request
+4. Authentication/RBAC	Authorized and unauthorized tests
+5. Tenant isolation	Cross-tenant denial
+6. Service logic	Actual business operation
+7. Database	Durable transaction
+8. External provider	Actual provider response
+9. Read-back	Verified persisted result
+10. Audit	Recorded action and actor
+11. Automated tests	Passing relevant tests
+12. Failure/rollback	Safe failure and recovery
+
+Not every workflow requires an external provider. In that case, mark Gate 8 as not applicable with an explanation rather than inventing a provider response.
+
+Mandatory automated tests
+
+Implement tests for:
+
+* Authentication.
+* Registration.
+* Session expiration.
+* Password security.
+* RBAC.
+* Tenant isolation.
+* Customer CRUD.
+* Lead conversion.
+* Estimate calculations.
+* Job assignment.
+* Scheduling conflicts.
+* Invoice calculations.
+* Payment webhooks.
+* Duplicate webhook protection.
+* Subscription entitlements.
+* AI provider failures.
+* Unauthorized AI tool execution.
+* File upload security.
+* Audit logging.
+
+Use the testing framework supported by the actual repository.
+
+Use browser-based end-to-end tests where supported.
+
+Never report tests as passing if they were not executed.
+
+⸻
+
+15. OBSERVABILITY AND FAILURE MANAGEMENT
+
+Implement structured server logs.
+
+Track:
+
+* Request IDs.
+* Tenant IDs.
+* User IDs where appropriate.
+* API errors.
+* Provider failures.
+* Payment events.
+* Database failures.
+* AI latency.
+* AI usage.
+* Job execution status.
+
+Do not log passwords, session tokens, private keys, or sensitive payment information.
+
+Provide:
+
+* Health endpoint.
+* Readiness checks.
+* Database health checks.
+* Provider health checks.
+* Error reporting.
+* Retry policies.
+* Idempotency.
+* Transaction rollback.
+* Recovery instructions.
+
+Distinguish between:
+
+* Healthy
+* Degraded
+* Not configured
+* Unavailable
+* Failed
+
+⸻
+
+16. PERFORMANCE AND MOBILE QUALITY
+
+Optimize for iPhone first without sacrificing desktop functionality.
+
+Requirements:
+
+* Responsive layouts.
+* Fast initial loading.
+* Lazy-loaded noncritical components.
+* Optimized images.
+* Pagination.
+* Efficient database queries.
+* Accessible forms.
+* Keyboard support.
+* Touch-friendly controls.
+* Installable PWA where supported.
+* Offline-safe read-only behavior where appropriate.
+
+Do not permit offline operations to silently create inconsistent financial records.
+
+Synchronize queued operations only with explicit conflict handling.
+
+Test on narrow mobile screens, tablet, and desktop.
+
+⸻
+
+17. PRODUCTION STATUS RULES
+
+Use these exact status meanings:
+
+NOT STARTED: No implementation exists.
+
+IN PROGRESS: Implementation exists but acceptance evidence is incomplete.
+
+BLOCKED: Required dependency or external permission is unavailable.
+
+IMPLEMENTED: Code exists and relevant local execution succeeded.
+
+VERIFIED: Required acceptance tests and evidence passed.
+
+PRODUCTION READY: All mandatory security, persistence, integration, deployment, and recovery gates passed.
+
+The following are not proof of production readiness:
+
+* A screenshot.
+* A successful preview.
+* A generated UI.
+* A successful compilation alone.
+* A green animation.
+* An AI-generated statement claiming success.
+
+Never upgrade status without evidence.
+
+⸻
+
+18. FINAL DELIVERABLES
+
+Deliver:
+
+1. Fully implemented responsive web application.
+2. Mobile-first PWA where supported.
+3. Public marketing website.
+4. Customer portal.
+5. Contractor operating dashboard.
+6. AI Command Center.
+7. Ten real AI agent services.
+8. Database schema and migrations.
+9. Authentication and RBAC.
+10. Tenant isolation.
+11. Estimates and invoicing.
+12. Job and dispatch management.
+13. Subscription billing.
+14. Payment integration.
+15. Integration management.
+16. Super Admin console.
+17. Automated test suite.
+18. Security documentation.
+19. Deployment instructions.
+20. Production acceptance report.
+21. Known limitations report.
+22. Updated single source of truth.
+
+⸻
+
+19. FINAL EXECUTION INSTRUCTIONS TO GROK
+
+Start by inspecting the actual environment.
+
+Then immediately:
+
+1. Create the implementation inventory.
+2. Establish the authoritative blueprint.
+3. Identify platform limitations.
+4. Implement Phase 1.
+5. Run and verify Phase 1.
+6. Continue sequentially through the remaining phases.
+7. Execute the full acceptance suite.
+8. Deploy only when the required deployment conditions are satisfied.
+9. Test the deployed application independently.
+10. Produce a truthful completion report.
+
+Do not stop after presenting a plan.
+
+Do not ask unnecessary questions when a safe, reversible engineering decision can be made.
+
+If credentials are missing, implement the secure configuration boundary and report the blocker.
+
+If platform limitations prevent a feature, document the exact limitation and provide the closest real supported implementation without pretending it is complete.
+
+Preserve existing data and code.
+
+Never delete lockfiles merely to make dependency installation succeed.
+
+Never remove security controls to make a demonstration work.
+
+Never enable live customer payments, automated external communications, or irreversible financial operations without the owner’s explicit authorization.
+
+FINAL ACCEPTANCE REPORT
+
+At completion, provide:
+
+* What was actually built.
+* Files created and modified.
+* Database migrations executed.
+* APIs implemented.
+* Integrations genuinely connected.
+* Automated tests executed and results.
+* Security test results.
+* Mobile and desktop verification.
+* Deployment URL, if successfully deployed.
+* Production acceptance gate results.
+* Outstanding blockers.
+* Features not implemented.
+* Exact next actions.
+
+Use evidence, not confidence statements.
+
+ULTIMATE PRODUCT STANDARD
+
+GODS COMMAND AI must become a commercially useful, secure, scalable contractor operating system.
+
+Build for real customers, real business operations, real revenue, and long-term maintainability.
+
+Do not optimize for the appearance of completion.
+
+Optimize for verified functionality, customer value, reliability, and sustainable recurring revenue.
+
+EXECUTE THE APPLICATION NOW.
